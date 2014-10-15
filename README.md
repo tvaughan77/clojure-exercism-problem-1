@@ -1,36 +1,35 @@
-# clojure-exercism-problem-1
+# Bob
 
-FIXME: description
+Bob is a lackadaisical teenager. In conversation, his responses are very limited.
 
-## Installation
+Bob answers 'Sure.' if you ask him a question.
 
-Download from http://example.com/FIXME.
+He answers 'Whoa, chill out!' if you yell at him.
 
-## Usage
+He says 'Fine. Be that way!' if you address him without actually saying
+anything.
 
-FIXME: explanation
+He answers 'Whatever.' to anything else.
 
-    $ java -jar clojure-exercism-problem-1-0.1.0-standalone.jar [args]
+## Instructions
 
-## Options
+Run the test file, and fix each of the errors in turn. When you get the
+first test to pass, go to the first pending or skipped test, and make
+that pass as well. When all of the tests are passing, feel free to
+submit.
 
-FIXME: listing of options this app accepts.
+Remember that passing code is just the first step. The goal is to work
+towards a solution that is as readable and expressive as you can make
+it.
 
-## Examples
+Please make your solution as general as possible. Good code doesn't just
+pass the test suite, it works with any input that fits the
+specification.
 
-...
+Have fun!
 
-### Bugs
 
-...
 
-### Any Other Sections
-### That You Think
-### Might be Useful
+## Source
 
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. [view source](http://pine.fm/LearnToProgram/?Chapter=06)
