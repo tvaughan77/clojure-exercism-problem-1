@@ -15,13 +15,14 @@
 (defn isQuestion [input]
   (.endsWith input "?"))
 
+; Yelling is where all alphanumeric characters are upper case
 (defn isYell [input]
-  (StringUtils/isAllUpperCase (.replaceAll input "\\d" "")))
+  (StringUtils/isAllUpperCase (.replaceAll input "[^a-zA-Z]" "")))
 
 (defn response-for [input]
   (cond
-    (isQuestion input) RESPONSE_QUESTION
     (isYell     input) RESPONSE_YELL
+    (isQuestion input) RESPONSE_QUESTION
     (isSilence  input) RESPONSE_SILENCE
     :else RESPONSE_OTHER))
 
